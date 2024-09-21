@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Prime</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header >
+        <div class="navbar" >
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-add border">
+                <p style="font-size: 0.85rem; color: white; margin-left: 15px;">Deliver To</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot" style="margin-left: 15px;"></i> 
+                    <p style="font-size: 1rem; color: white; margin-left: 3px;">India</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option value="">All</option>
+                </select>
+                <input placeholder="Search MyPrime" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        <div class="nav-signin border">
+            <p > <button style="background-color:#170eb5; height: 30px; width: 120px; border-radius: 5px;" type="button" class="btn btn-outline-primary">Login/sign up</button></p>
+        </div>
+        <div class="nav-return border">
+            <p > <span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+        </div>
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+        </div>
+
+        <div class="panel" >
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+              <p id="eng">Today's Deals</p>
+              <p id="eng"> Customer Services</p>
+              <p id="eng"> Registry</p>
+              <p id="eng"> Gift Cards</p>
+              <p id="eng"> Sell</p>
+              <p id="eng"><button id="contact-form" style="width: 120px; height: 30p;border-radius: 5px; background-color: #0b883f; box-shadow: 4px 4px 4px black; color: white;">Seller Login/Sign up</button></p>
+            </div>
+            <div class="panel-deals">
+            <p>Shop deals in Electronics</p>
+           </div>
+        </div>
+    </header>
+    <!-- <div id="form">
+        <form action="">
+            <input type="" name="" id="" placeholder="Enter your name" required>
+            <input type="email" name="" id="" placeholder="Enter your email" required>
+
+            <input type="" name="" id="" placeholder="Enter your Subject">
+            <textarea name="" id="" cols="40" rows="10" placeholder="Enter your message" required></textarea>
+            <input type="submit" name="" id="" value="submit" class="send">
+        </form>
+    </div> -->
+
+    <div class="hero-sec">
+        <div class="hero-msg">
+            <p>You are on MyPrime.com. You can also shop on MyPrime India for millions of products with fast local delivery.</p> <a href="https://www.MyPrime.in"> Click here to go to MyPrime.in</a>
+        </div>
+    </div>
+
+    <div class="shop-sec">
+        <div class="box1 box">
+           <div class="box-content">
+            <h2>Personal & Health care</h2>
+            <div class="box-img" style="background-image: url('tooth.jpg');"></div>
+            <p>See More</p>
+           </div>
+        </div>
+        <div class="box2 box"> 
+             <div class="box-content">
+            <h2>Furniture</h2>
+            <div class="box-img" style="background-image: url('table.jpg');"></div>
+            <p>See More</p>
+           </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+            <h2>Baby Toys</h2>
+            <div class="box-img" style="background-image: url('plane.jpg');"></div>
+            <p>See More</p>
+           </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+            <h2>Models Design</h2>
+            <div class="box-img" style="background-image: url('model.jpg');"></div>
+            <p>See More</p>
+           </div>
+        </div>
+        <div class="box5 box">
+            <div class="box-content">
+             <h2>Devices</h2>
+             <div class="box-img" style="background-image: url('mobile.jpg');"></div>
+             <p>See More</p>
+            </div>
+         </div>
+         <div class="box6 box"> 
+              <div class="box-content">
+             <h2>Pet Care</h2>
+             <div class="box-img" style="background-image: url('dog.jpg');"></div>
+             <p>See More</p>
+            </div>
+         </div>
+         <div class="box7 box">
+             <div class="box-content">
+             <h2>Cloth</h2>
+             <div class="box-img" style="background-image: url('cloth.jpg');"></div>
+             <p>See More</p>
+            </div>
+         </div>
+         <div class="box8 box">
+             <div class="box-content">
+             <h2>Daily Items</h2>
+             <div class="box-img" style="background-image: url('tooth.jpg');"></div>
+             <p>See More</p>
+            </div>
+         </div>
+         <div class="box9 box">
+            <div class="box-content">
+            <h2>Beauty Personal</h2>
+            <div class="box-img" style="background-image: url('makeup.jpg');"></div>
+            <p>See More</p>
+           </div>
+        </div>
+        <div class="box10 box">
+            <div class="box-content">
+            <h2>Electronics Television</h2>
+            <div class="box-img" style="background-image: url('tv.jpg') ;"></div>
+            <p>See More</p>
+           </div>
+        </div> <div class="box11 box">
+            <div class="box-content">
+            <h2>Electronics Watches</h2>
+            <div class="box-img" style="background-image: url('watch.jpg');"></div>
+            <p>See More</p>
+           </div>
+        </div> <div class="box12 box">
+            <div class="box-content">
+            <h2>Washing Machine</h2>
+            <div class="box-img" style="background-image: url('wash.jpg');"></div>
+            <p>See More</p>
+           </div>
+        </div> 
+        <div class="box13 box">
+            <div class="box-content">
+            <h2>Water Science</h2>
+            <div class="box-img" style="background-image: url('Water\ Science\ Best\ Deals.jpg');"></div>
+            <p>See More</p>
+           </div>
+        </div> 
+        <div class="box14 box">
+            <div class="box-content">
+            <h2>Computer Mouse</h2>
+            <div class="box-img" style="background-image: url('mouse.jpg');"></div>
+            <p>See More</p>
+           </div>
+        </div> 
+        <div class="box15 box">
+            <div class="box-content">
+            <h2>Footwear</h2>
+            <div class="box-img" style="background-image: url('PUMA\ Footwear.jpg');"></div>
+            <p>See More</p>
+           </div>
+        </div> 
+        <div class="box16 box">
+            <div class="box-content">
+            <h2>Kitchen Items</h2>
+            <div class="box-img" style="background-image: url('kitchen.jpg');"></div>
+            <p>See More</p>
+           </div>
+        </div>
+    </div>
+
+    <footer >
+            <div class="foot-panel1"> 
+            <p><button style="width: 110px; height: 30p;border-radius: 5px; background-color: #0b883f; box-shadow: 4px 4px 4px black;">Back to Top</button> </p></div>
+            <hr>
+            <div class="foot-panel2" >
+            <ul >
+                <p>Get to Know us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About MyPrime</a>
+                <a>Investor Relation</a>
+                <a>MyPrime Devices</a>
+                <a>MyPrime Science</a>
+            </ul>
+            <ul >
+                <p>Make Money with us</p>
+                <a>Sell on MyPrime</a>
+                <a>Sell your services on MyPrime</a>
+                <a>Sell on MyPrime Business</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Product</a>
+                <a>Self Publish with us</a>
+            </ul>
+            <ul >
+                <p>MyPrime Payment Products</p>
+                <a>MyPrime Rewards Visa Signature Card</a>
+                <a>Shop with points</a>
+                <a>MyPrime.com store card</a>
+                <a>Credit card marketplace</a>
+                <a>Reload your balance</a>
+                <a>MyPrime Currency converter</a>
+            </ul>
+            <ul >
+                <p>Let us Help You</p>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>MyPrime Assistant</a>
+                <a>Returns & Replacement</a>
+                <a>Shipping Rates and Policies</a>
+                <a>Help</a>
+            </ul>
+            </div>
+            <div class="foot-panel3" >
+                <div class="logo"></div>
+            </div>
+
+            <div class="foot-panel4" >
+                <div class="pages">
+                    <a>Conditions of Use</a>
+                    <a>Privacy Notice</a>
+                    <a>Your Ads Privacy Choices</a>
+                </div>
+                <div class="copyright">
+                    © 1996-2023, MyPrime.com, Inc. or its affiliates
+                </div>
+            </div>
+    </footer>
+    <!-- <script>
+        function open(){
+            document.getElementById("form").style.display = "block";
+        }
+        function close(){
+            document.getElementById("form").style.display = "none";
+        }
+    </script> -->
+</body>
+</html>
